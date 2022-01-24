@@ -42,6 +42,13 @@ public class Main {
             if (x == 0){
                 break;
             }
+
+            switch(x) {
+                case 1:
+                    System.out.println(LiczbyEnum[1]);
+                    break;
+
+            }
         }
 
     }
