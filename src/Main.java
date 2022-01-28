@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -18,6 +14,29 @@ public class Main {
             d) wypisać wartości pól (za pomocą getterów),
             e) wywołać metody suma i róznica (obie wersje) z klasy punkt
         */
+
+
+                Punkt punktA = new Punkt(10,22,55);
+                System.out.println(punktA.toString());
+
+                Punkt punktB = new Punkt(5,10,66);
+                System.out.println(punktB.toString());
+
+                punktA.setX(10);
+                punktA.setY(22);
+                punktA.setZ(55);
+                System.out.println(punktA.toString());
+
+                punktA.getX();
+                punktA.getY();
+                punktA.getZ();
+                System.out.println(punktA.toString());
+
+
+                punktA.wyswietl();
+                punktA.wyswietl1();
+                punktA.wyswietl2();
+                punktA.wyswietl3();
 
     }
 }
