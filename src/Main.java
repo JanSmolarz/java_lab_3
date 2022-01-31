@@ -14,6 +14,8 @@ public class Main {
             oraz stworzyć listę typu najbardziej generycznego np. List<Budynek>,
             f) wyświetlić dane
          */
+        Student student = new Student("Jan", "Smolarz", "60727");
+        System.out.println(student.toString());
 
     }
 }
