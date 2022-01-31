@@ -67,6 +67,6 @@ public class Auto {
     @Override
     public String toString()
     {
-        return "Auto: { "+ "Marka = " + marka + "; Model = " + model + "; pojemnosc = " + pojemnosc + "; cena = " + cena + " PLN" + "; czyProdukowany = " + (produkcja ? "Tak" : "Nie") + "}";
+        return "Auto: { "+ "Marka = " + marka + "; Model = " + model + "; pojemnosc = " + pojemnosc + " cm3" + "; cena = " + cena + " PLN" + "; czyProdukowany = " + (produkcja ? "Tak" : "Nie") + "}";
     }
 }

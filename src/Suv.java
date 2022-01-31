@@ -29,6 +29,6 @@ public class Suv extends Auto
     @Override
     public String toString()
     {
-        return "SUV: {" + "Marka = " + marka + "; Model = " + model + "; Pojemnosc = " + pojemnosc + "; Cena = " + cena + " PLN" + "; Moc = " + moc + " KM" + "}";
+        return "SUV: {" + "Marka = " + marka + "; Model = " + model + "; Pojemnosc = " + pojemnosc + " cm3" + "; Cena = " + cena + " PLN" + "; Moc = " + moc + " KM" + "}";
     }
 }

@@ -21,7 +21,7 @@ public class Main {
         Suv terenowka = new Suv("Audi", "Q7", 2937, 329980, 231);
         System.out.println(terenowka.toString());
 
-        HyperCar hyperCar = new HyperCar("McLaren","P1", 3800, 800000000,384,2.8);
+        HyperCar hyperCar = new HyperCar("McLaren","P1", 3800, 903,800000000,384,2.8);
         System.out.println(hyperCar.toString());
 
         List<Auto> listaPojazdow = new ArrayList<>();
