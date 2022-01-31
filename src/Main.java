@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
@@ -33,5 +35,23 @@ public class Main {
         osoba.setIndeks(60727);
 
         osoba.wyświetl();
+
+        List<Student> listaStudentow = new ArrayList<>();
+
+        Student a = new Student();
+        listaStudentow.add(a);
+        Student b = new Student();
+        listaStudentow.add(b);
+        Student c = new Student();
+        listaStudentow.add(c);
+        Student d = new Student();
+        listaStudentow.add(d);
+        Student e = new Student();
+        listaStudentow.add(e);
+
+        for (Student x : listaStudentow)
+        {
+            System.out.println(a.toString());
+        }
     }
 }
