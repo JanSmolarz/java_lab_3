@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
@@ -11,11 +13,22 @@ public class Main {
             d) proszę używać super do wywołania konstruktorów i metod z klas nadrzędnych
             (można wygenerować je --> prawy przycisk myszki --> generate --> settery, gettery, ...),
             e) w klasie Main proszę stworzyć objekty podobnie jak w przykładzie 5,
-            oraz stworzyć listę typu najbardziej generycznego np. List<Budynek>,
-            f) wyświetlić dane
+            oraz stworzyć listę typu najbardziej generycznego np. List<Budynek>
          */
-        Student student = new Student("Jan", "Smolarz", "60727");
-        System.out.println(student.toString());
+        Auto samochod = new Auto("Fiat", "Panda", 1100, 5900);
+        System.out.println(samochod.toString());
 
+        Suv terenowka = new Suv("Audi", "Q7", 2937, 329980, 231);
+        System.out.println(terenowka.toString());
+
+        HyperCar hyperCar = new HyperCar("McLaren","P1", 3800, 800000000,384,2.8);
+        System.out.println(hyperCar.toString());
+
+        List<Auto> listaPojazdow = new ArrayList<>();
+        listaPojazdow.add(samochod);
+        listaPojazdow.add(terenowka);
+        listaPojazdow.add(hyperCar);
+
+        System.out.println(listaPojazdow);
     }
 }
